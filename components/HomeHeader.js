@@ -6,7 +6,7 @@ const HomeHeader = () => {
   const navigation = useNavigation();
 
   return (
-    <View className="flex-row w-full h-[100px] justify-between px-5 shadow pt-14">
+    <View className="flex-row w-full h-[100px] justify-between px-5 pt-14">
       <TouchableOpacity onPress={() => navigation.openDrawer()}>
         <Ionicons name="menu-outline" size={30} color="#000000" />
       </TouchableOpacity>

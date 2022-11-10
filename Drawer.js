@@ -13,7 +13,7 @@ const DrawerNavigation = () => {
       initialRouteName="Home"
       screenOptions={{
         headerShown: false,
-        swipeEdgeWidth: 150,
+        swipeEdgeWidth: 50,
         drawerActiveBackgroundColor: "#AAC4FF",
         drawerActiveTintColor: "#ffffff",
         drawerInactiveTintColor: "#000000",
